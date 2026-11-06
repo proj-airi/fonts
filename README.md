@@ -10,7 +10,7 @@ Each package gives the CSS `@font-face` rules and the font files for one font.
 | `@proj-airi/font-chillroundf` | `ChillRoundF` (寒蝉全圆体) | 400 | OFL 1.1 | [Warren2060/ChillRound](https://github.com/Warren2060/ChillRound) |
 | `@proj-airi/font-chillroundm` | `ChillRoundM` (寒蝉半圆体) | 400 | OFL 1.1 | [Warren2060/ChillRound](https://github.com/Warren2060/ChillRound) |
 | `@proj-airi/font-cjkfonts-allseto` | `cjkfonts AllSeto` (全瀨體) | 400 | OFL 1.1 | [cjkfonts.io](https://cjkfonts.io/blog/cjkfonts_allseto) |
-| `@proj-airi/font-departure-mono` | `Departure Mono` | 400 | MIT | [rektdeckard/departure-mono](https://github.com/rektdeckard/departure-mono) |
+| `@proj-airi/font-departure-mono` | `Departure Mono` | 400 | OFL 1.1 | [rektdeckard/departure-mono](https://github.com/rektdeckard/departure-mono) |
 | `@proj-airi/font-kirakara-maru` | `KirakaraMaru` (耀圆体) | 400, 700 | OFL 1.1 | [feiyangjun-1/KirakaraMaru](https://github.com/feiyangjun-1/KirakaraMaru) |
 | `@proj-airi/font-lxgw-975yuan` | `LXGW 975 Yuan SC` (霞鹜975圆体SC) | 400, 500, 700 | OFL 1.1 | [lxgw/975Yuan](https://github.com/lxgw/975Yuan) |
 | `@proj-airi/font-xiaolai` | `Xiaolai SC` (小赖字体) | 400 | OFL 1.1 | [lxgw/kose-font](https://github.com/lxgw/kose-font) |
