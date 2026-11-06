@@ -1,0 +1,39 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/setup@v2
+        with:
+          runtime: node@^26.12.1
+          cache: true
+          install: false
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run lint
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: pnpm/setup@v2
+        with:
+          runtime: node@^26.12.1
+          cache: true
+          install: false
+
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm run build
+      - run: pnpm publish -r --access public --no-git-checks --dry-run

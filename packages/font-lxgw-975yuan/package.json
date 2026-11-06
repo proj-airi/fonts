@@ -1,0 +1,42 @@
+{
+  "name": "@proj-airi/font-lxgw-975yuan",
+  "type": "module",
+  "version": "0.15.1",
+  "description": "Essential CSS for font, LXGW 975 Yuan (霞鹜975圆体), used by Project AIRI",
+  "author": {
+    "name": "LXGW",
+    "url": "https://github.com/lxgw"
+  },
+  "license": "SIL Open Font License",
+  "homepage": "https://github.com/lxgw/975Yuan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proj-airi/fonts.git",
+    "directory": "packages/font-lxgw-975yuan"
+  },
+  "exports": {
+    ".": {
+      "default": "./dist/index.css"
+    },
+    "./index.css": {
+      "default": "./dist/index.css"
+    },
+    "./files/*": {
+      "default": "./dist/files/*"
+    },
+    "./files/*.ttf": {
+      "default": "./dist/files/*.ttf"
+    },
+    "./*": {
+      "default": "./*.css"
+    }
+  },
+  "main": "./dist/index.css",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "pnpm run build",
+    "build": "tsdown"
+  }
+}

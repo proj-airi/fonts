@@ -1,0 +1,16 @@
+catalogMode: prefer
+minimumReleaseAge: 4320
+
+shellEmulator: true
+
+trustPolicy: no-downgrade
+
+packages:
+  - packages/*
+
+catalog:
+  '@antfu/eslint-config': 8.2.0
+  bumpp: ^12.2.1
+  changelogithub: ^14.0.0
+  eslint: ^10.9.0
+  tsdown: ^0.22.14

@@ -1,0 +1,30 @@
+{
+  "name": "@proj-airi/fonts",
+  "type": "module",
+  "version": "0.15.1",
+  "private": true,
+  "packageManager": "pnpm@11.24.0",
+  "description": "Font packages used by Project AIRI",
+  "author": {
+    "name": "Project AIRI Team",
+    "url": "https://github.com/proj-airi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proj-airi/fonts.git"
+  },
+  "scripts": {
+    "build": "pnpm -r run build",
+    "lint": "eslint --cache .",
+    "lint:fix": "eslint --cache --fix .",
+    "release": "bumpp",
+    "changelogithub": "changelogithub"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
+    "bumpp": "catalog:",
+    "changelogithub": "catalog:",
+    "eslint": "catalog:",
+    "tsdown": "catalog:"
+  }
+}
