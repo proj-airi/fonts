@@ -1,7 +1,7 @@
 {
   "name": "@proj-airi/font-kirakara-maru",
   "type": "module",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "description": "Essential CSS for font, KirakaraMaru (a.k.a. 耀圆体), used by Project AIRI",
   "author": {
     "name": "feiyangjun-1",
